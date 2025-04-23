@@ -1,0 +1,100 @@
+{
+    "display": {
+        "screen_colors": {
+            "fishing_indicator": [248, 39, 39],
+            "fishing_indicator_background": [240, 240, 240],
+            "hunger_bar": [37, 150, 190],
+            "hunger_bar_2": [128, 87, 40],
+            "catch_title": [255, 255, 0],
+            "health_bar": [46, 144, 46],
+            "item_slot_active": [61, 59, 50],
+            "sunken_treasure": [69, 120, 225]
+        },
+        "parse_colors": {
+            "fishing_indicator": [255, 0, 0],
+            "hunger_bar": [109, 67, 32],
+            "catch_title": [255, 255, 0],
+            "catch_background": [0, 0, 0],
+            "health_bar": [0, 255, 0],
+            "item_slot": [255, 0, 255]
+        },
+        "config_file": "resource/display_config.png",
+        "color_threshold": 15,
+        "active_quests": 2,
+        "first_quest_offset": 75,
+        "quest_height": 70
+    },
+    "client": {
+        "sleep_time": 0.15,
+        "fishing": {
+            "max_consecutive_idles": 3,
+            "max_idle_seconds": 150,
+            "min_idle_seconds": 3,
+            "max_reeling_seconds": 30,
+            "reel_click_delay": 0.1,
+            "rod_slot": 1
+        },
+        "eating": {
+            "eat_delay": 0.5,
+            "food_slots": [2, 3, 4, 5, 6, 7, 8, 9],
+            "similar_slot_threshold": 0.75,
+            "shrink_bounds": 10,
+            "max_food_tried": 10
+        },
+        "player": {
+            "health_threshold": 0.7,
+            "hunger_threshold": 0.7
+        },
+        "random_click_width": 20 
+    },
+    "discord": {
+        "token": "<DISCORD_TOKEN>",
+        "color": [51, 103, 205],
+        "error_color": [231, 76, 60],
+        "channel_ids": {
+            "action": "<DISCORD_ACTION_CHANNEL_ID> (NUMBER)",
+            "fishing": "<DISCORD_FISHING_CHANNEL_ID> (NUMBER)",
+            "error": "<DISCORD_ERROR_CHANNEL_ID> (NUMBER)"
+        },
+        "player_username": "<PLAYER_USERNAME>",
+        "prefix": "!",
+        "user_id": "<DISCORD_USER_ID> (NUMBER)",
+        "commands": [
+            {
+                "name": "toggle",
+                "args": [],
+                "description": "Toggles FishNet"
+            },
+            {
+                "name": "quitgame",
+                "args": [],
+                "description": "Exits the roblox game and shuts off the FishNet"
+            },
+            {
+                "name": "randomsleep",
+                "args": ["min_active", "max_active", "sleep_duration"],
+                "description": "``min_active`` = min active fishing time before sleeping.\n``max_active`` = max active fishing time before sleeping.\n``sleep_duration`` = amount of time to do nothing."
+            },
+            {
+                "name": "sendmessage",
+                "args": ["...message"],
+                "description": "Type the message after the command to send the message."
+            },
+            {
+                "name": "disablerandomsleep",
+                "args": [],
+                "description": "Disables randomsleep"
+            },
+            {
+                "name": "ss",
+                "args": [],
+                "description": "Return a screenshot of the current screen"
+            },
+            {
+                "name": "state",
+                "args": [],
+                "description": "Get the current state of the client"
+            }
+        ]
+    }
+}
