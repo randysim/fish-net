@@ -63,7 +63,7 @@ class ScreenState():
                 if self._color_difference(self.screen_colors["sunken_treasure"], px[x, y]) <= self.color_threshold:
                     return True, True
             
-        return False
+        return False, False
 
     def _detect_hunger(self, px):
         indicator_bounds = self.display_config.hunger_bar_bounds
