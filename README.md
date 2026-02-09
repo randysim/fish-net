@@ -61,6 +61,14 @@ You can customize the script's behavior by editing the `config.json` file.
 
 Ensure your character's head is positioned at the center of the screen, with the fishing indicator touching or slightly above the top edge. This positioning is crucial for optimal performance of the auto-eat and auto-fish features.
 
+## Important notes:
+
+- In python 3.13+, you have to manually install audiooplts since it doesn't come with Python be default anymore.
+- check resource/display_config.png. This is the overlay the program uses to detect health, fish, etc. For future arcane odyssey updates, you must modify this yourself. The color of the elements needs to remain the same. Green = Health, Brown = food, red = fish exclamation mark icon, purple = item slot, yellow = fish catch header, black = rest of fish catch box.
+- the fish catch box moves depending on how many quests you have active. you can modify how many quests in config.json.
+- Discord token is a string, but discord channel ids and discord user id is a number. Don't wrap it with quotes in config.json.
+- Open up an issue or read issues if you are having any errors and want help.
+
 ## Edge Cases and Precautions
 
 While FishNet is designed to handle most fishing scenarios, there are a few edge cases to be aware of:
