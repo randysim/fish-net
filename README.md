@@ -65,6 +65,7 @@ Ensure your character's head is positioned at the center of the screen, with the
 
 - In python 3.13+, you have to manually install audiooplts since it doesn't come with Python be default anymore.
 - check resource/display_config.png. This is the overlay the program uses to detect health, fish, etc. For future arcane odyssey updates, you must modify this yourself. The color of the elements needs to remain the same. Green = Health, Brown = food, red = fish exclamation mark icon, purple = item slot, yellow = fish catch header, black = rest of fish catch box.
+- YOU CAN ONLY HAVE 9 PURPLE BOXES (Item slots) drawn on display_config. Draw them over item slots 1-9. Item slot 0 is reserved for an edge case where, say you want to eat food and the current food slot is item slot 4. If you are already holding item slot 4 in your hand, pressing 4 will de-equip the food. However, I bypassed this by first accessing item slot 0 which clears anything you're holding in item slots 1-9.
 - the fish catch box moves depending on how many quests you have active. you can modify how many quests in config.json.
 - Discord token is a string, but discord channel ids and discord user id is a number. Don't wrap it with quotes in config.json.
 - Open up an issue or read issues if you are having any errors and want help.
