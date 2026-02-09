@@ -159,7 +159,7 @@ class DiscordAPI:
         embed = discord.Embed(color=discord.Color.from_rgb(*self.config["color"]))
         embed.set_author(
             name=self.config['player_username'],
-            icon_url=self.client.user.avatar.url
+            icon_url=self.client.user.display_avatar.url
         )
 
         return embed
