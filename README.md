@@ -70,6 +70,8 @@ Ensure your character's head is positioned at the center of the screen, with the
 - Discord token is a string, but discord channel ids and discord user id is a number. Don't wrap it with quotes in config.json.
 - Open up an issue or read issues if you are having any errors and want help.
 
+IF YOU ARE HAVING ANY DIFFICULTIES REFERENCE THIS GITHUB ISSUES THREAD FOR SOME COMMON THINGS YOU MIGHT RUN INTO: https://github.com/randysim/fish-net/issues/1
+
 ## Edge Cases and Precautions
 
 While FishNet is designed to handle most fishing scenarios, there are a few edge cases to be aware of:
