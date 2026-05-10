@@ -1,10 +1,10 @@
 # FishNet
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/randysim/fish-net?style=for-the-badge" alt="GitHub Repo stars">
-  <img src="https://img.shields.io/github/forks/randysim/fish-net?style=for-the-badge" alt="GitHub forks">
-  <img src="https://img.shields.io/github/issues/randysim/fish-net?style=for-the-badge" alt="GitHub issues">
-  <img src="https://img.shields.io/github/license/randysim/fish-net?style=for-the-badge" alt="GitHub license">
+  <img src="https://img.shields.io/github/stars/randall-sim/fish-net?style=for-the-badge" alt="GitHub Repo stars">
+  <img src="https://img.shields.io/github/forks/randall-sim/fish-net?style=for-the-badge" alt="GitHub forks">
+  <img src="https://img.shields.io/github/issues/randall-sim/fish-net?style=for-the-badge" alt="GitHub issues">
+  <img src="https://img.shields.io/github/license/randall-sim/fish-net?style=for-the-badge" alt="GitHub license">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" alt="Python">
 </p>
 
@@ -12,7 +12,7 @@ FishNet is an advanced automated fishing script designed for Arcane Odyssey. It 
 
 ## How It Works
 
-![FishNet Diagram](https://github.com/randysim/fish-net/blob/main/resource/FishNetDiagram.png)
+![FishNet Diagram](https://github.com/randall-sim/fish-net/blob/main/resource/FishNetDiagram.png)
 
 FishNet employs sophisticated image recognition algorithms to identify fishing indicators on the screen. By analyzing the visual cues, it accurately determines the optimal moment to reel in your catch, maximizing your fishing efficiency.
 
@@ -70,7 +70,7 @@ Ensure your character's head is positioned at the center of the screen, with the
 - Discord token is a string, but discord channel ids and discord user id is a number. Don't wrap it with quotes in config.json.
 - Open up an issue or read issues if you are having any errors and want help.
 
-IF YOU ARE HAVING ANY DIFFICULTIES REFERENCE THIS GITHUB ISSUES THREAD FOR SOME COMMON THINGS YOU MIGHT RUN INTO: https://github.com/randysim/fish-net/issues/1
+IF YOU ARE HAVING ANY DIFFICULTIES REFERENCE THIS GITHUB ISSUES THREAD FOR SOME COMMON THINGS YOU MIGHT RUN INTO: https://github.com/randall-sim/fish-net/issues/1
 
 ## Edge Cases and Precautions
 
@@ -84,5 +84,5 @@ While FishNet is designed to handle most fishing scenarios, there are a few edge
 By being mindful of these scenarios, you can ensure a smooth and effective fishing experience with FishNet. Happy fishing!
 
 <p align="center">
-    <img src=https://github.com/randysim/fish-net/blob/main/resource/fishnet_pfp.png alt="FishNet Logo" width="175" height="175">
+    <img src=https://github.com/randall-sim/fish-net/blob/main/resource/fishnet_pfp.png alt="FishNet Logo" width="175" height="175">
 </p>
